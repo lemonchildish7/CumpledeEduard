@@ -9,7 +9,7 @@ document.querySelector("#botonsorpresa").addEventListener("mouseenter", function
     document.body.style.cursor = "url(img/peace-cursor.png), auto";
 });
 
-document.querySelector("#botonsorpresa").addEventListener("mouseout", function() {
+document.querySelector("#botonsorpresa").addEventListener("mouseleave", function() {
     document.body.style.cursor = "url(img/josuke-cursor.png), auto";
 });
 
