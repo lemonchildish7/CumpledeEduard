@@ -5,7 +5,7 @@ document.getElementById("botonsorpresa").addEventListener("click", function() {
     this.style.display = "none";
 });
 
-document.querySelector("#botonsorpresa").addEventListener("mouseover", function() {
+document.querySelector("#botonsorpresa").addEventListener("mouseenter", function() {
     document.body.style.cursor = "url(img/peace-cursor.png), auto";
 });
 
